@@ -1,0 +1,35 @@
+﻿*{
+margin: 0 auto; /*centraliza o conteudo da pagina*/
+font-family: Calibri;
+}
+
+body{
+
+	background-color:  /*cor de fundo da pagina*/
+}
+
+label{
+	display: center; /*Faz com que os campos do formulario sejam exibidos na vertical sem a necessidade do velho <br>*/
+
+}
+
+/*centraliza a tela de login no meio da tela*/
+
+#ajustar_tela{
+	background-color: #ffffff;
+	border:2px solid #D9D9D9;
+	position: center;
+	width: 300px; /*largura da div login*/
+	text-align: center; /*centraliza elementos do form*/
+	padding: 15px; /*definimos tamanho do espaçamento interno*/
+    padding-top: 50px;
+    padding-right: 30px;
+	top: 0%; /*centralizamos verticalmente o form na tela*/
+        
+}
+
+/* Bordar arredondadas */
+.bradius{
+	border-radius:100px;
+	-webkit-border-radius: 100px;
+	-moz-borderradius: 100px;	

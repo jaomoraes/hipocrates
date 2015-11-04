@@ -1,0 +1,36 @@
+<div>
+    <div class="table-responsive">
+       <table class="table">
+        <thead>
+            <tr>  
+               <th>Nome</th>
+               <th>Data</th>
+               <th>RG</th>
+               <th>CPF</th>
+               <th>Cargo</th>
+               <th>Numero</th>
+               <th>Complemento</th>
+               <th>CEP</th>
+               <th>Telefone</th>
+               <th>Celular</th>
+               <th>Usuario</th> 
+            </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="user in users">
+            <td>{{user.getNome()}}</td>
+            <td>{{user.getDateNasc()}}</td>
+            <td>{{user.getRg()}}</td>
+            <td>{{user.getCpf()}}</td>
+            <td>{{user.getCargo()}}</td>
+            <td>{{user.getNumber()}}</td>
+            <td>{{user.getComplemento()}}</td>
+            <td>{{user.getCep()}}</td>
+            <td>{{user.getTelRes()}}</td>
+            <td>{{user.getTelCel()}}</td>
+            <td>{{user.getUser()}}</td>
+        </tr>
+        </tbody>
+    </table>
+    </div> 
+</div>
